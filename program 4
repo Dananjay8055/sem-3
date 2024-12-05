@@ -1,0 +1,28 @@
+class array:
+    def __init__(self):
+        self.data=[]
+    def Append(self):
+        self.data.append(int(input("Enter the element: ")))
+    def Delete(self):
+        ele=int(input("Enter the element to be deleted: "))
+        if ele in self.data:
+            self.data.remove(ele)
+        else:
+            print("Element not present")
+    def Display(self):
+        print(self.data)
+
+l1=array()
+print("Menu: \n1.Append\n2.Delete\n3.Display\n4.Exit")
+while(True):
+    choice=int(input("Enter choice(1-4): "))
+    if choice==1:
+        l1.Append()
+    elif choice==2:
+        l1.Delete()
+    elif choice==3:
+        l1.Display()
+    elif choice==4:
+        break
+    else:
+        print("Invalid choice")
