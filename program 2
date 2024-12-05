@@ -1,0 +1,13 @@
+import string
+string1=input("Enter a sentence: ")
+words=[]
+words=string1.split(" ")
+print(words)
+dict1={}
+for word in words:
+    if(word[0] not in dict1):
+        dict1[word[0]]=[]
+    if(word[0] in dict1):
+        dict1[word[0]].append(word)
+        sorted(word)
+print(dict1)
