@@ -1,0 +1,12 @@
+str1=input("Enter the string: ")
+dict1={}
+c=0
+for i in str1:
+    for j in str1:
+        if(i==j):
+            c=c+1
+            dict1[i]=c
+        else:
+            continue
+    c=0
+print(dict1)
