@@ -20,7 +20,7 @@ def handle_missing_data(df):
     if choice=='1':
         value=input("Enter value to fill missing data: ")
         df_filled=df.fillna(value)
-        print("\nData after filling missing values: ",df_filled)
+        print("\nData after filling missing values: \n",df_filled)
     elif choice=='2':
         df_dropped_rows=df.dropna()
         print("\nData after dropping rows with missing value: ",df_dropped_rows)
