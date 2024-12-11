@@ -9,7 +9,7 @@ df=pd.DataFrame(data)
 
 plt.figure(figsize=(8,5))
 plt.scatter(df['Age'],df['Salary'],color='blue',marker='o')
-plt.title("Sactter plot of Average vs Salary")
+plt.title("Sactter plot of Age vs Salary")
 plt.xlabel("Age")
 plt.ylabel("Salary")
 plt.grid(True)
