@@ -19,7 +19,7 @@ plt.figure(figsize=(8,5))
 plt.hist(df['Age'],bins=5,color='green',edgecolor='black')
 plt.title("Histogram of age distribution")
 plt.xlabel("Age")
-plt.ylabel("Salary")
+plt.ylabel("Frequency")
 plt.grid(axis='y')
 plt.show()
 
