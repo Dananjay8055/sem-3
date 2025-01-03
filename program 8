@@ -35,7 +35,7 @@ print("Joint Probability P(A=3 and B=4): ",joint_prob)
 marginal_prob_A=marginal_probability(df,3,'Variable_A')
 print("Marginal Probabilty P(A=3): ",marginal_prob_A)
 
-marginal_prob_B=marginal_probability(df,3,'Variable_B')
+marginal_prob_B=marginal_probability(df,4,'Variable_B')
 print("Marginal Probabilty P(B=3): ",marginal_prob_B)
 
 cond_prob=conditional_probability(df,3,4)
